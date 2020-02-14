@@ -1,0 +1,85 @@
+main h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.listado {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+
+.listado .producto{
+    margin: 10px;
+    background-color:#ebebeb;
+    opacity: .95;
+    padding: 0 18px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.listado .producto .principal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listado .producto img{
+    box-shadow: 0px 3px 3px #848484;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 120px;
+    height: 120px;
+}
+
+.listado .producto .secundaria{
+    background-color:#c5c5c5d8;
+    border-radius: 3px;
+    padding-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.listado .producto .acciones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form button{
+    margin: 2px;
+    margin-bottom: 5px;
+    background-color: #6e689e;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #6e689e;
+    font-weight: bold;
+}
+
+form button:hover{
+    color: white;
+    background-color: #00ebb8;
+    border-color: #00ebb8;
+  
+}
+  
+form button:focus{
+    color:white;
+    background-color: #00ebb8;
+    border-color: #00ebb8;
+    border-radius: 4px;
+}

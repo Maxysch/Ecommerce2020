@@ -1,0 +1,94 @@
+    main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    }
+
+    .producto{
+    margin: 10px;
+    width: 60vw;
+    background-color:#ebebeb;
+    opacity: .95;
+    padding: 0 18px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    .info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+    .info .principal{
+    background-color:#c5c5c5d8;
+    border-radius: 3px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    .info .principal h1{
+    text-transform: uppercase;
+    }
+
+    .info .secundaria{
+    background-color:#c5c5c5d8;
+    border-radius: 3px;
+    width: 500px;
+    }
+
+    .producto  img{
+    box-shadow: 0px 3px 3px #848484;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 300px;
+    height: 300px;
+    }
+
+    form button{
+    margin: 2px;
+    margin-bottom: 20px;
+    background-color: #6e689e;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #6e689e;
+    font-weight: bold;
+    }
+
+    form button:hover{
+    color: white;
+    background-color: #00ebb8;
+    border-color: #00ebb8;
+    }
+    
+    form button:focus{
+    color:white;
+    background-color: #00ebb8;
+    border-color: #00ebb8;
+    border-radius: 4px;
+    }
+
+    .contBotonera{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+    }
+    
+    .boton{
+        width:200px;
+        height: 50px;
+    }

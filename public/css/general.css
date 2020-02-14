@@ -1,0 +1,162 @@
+    body{
+    margin-left: 0;
+    margin-right: 0;
+    background: url("/storage/fondiño.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    }
+  
+    main{
+      margin-top: 160px;
+    }
+
+    header{
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-sizing: border-box;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #4F4887;
+    box-shadow: 0px 2px 3px #000000;
+    -webkit-box-shadow: 0px 2px 3px #000000;
+    -moz-box-shadow: 0px 2px 3px #000000;
+    -ms-box-shadow: 0px 2px 3px #000000;
+    }
+  
+  .log{
+    width: 100%;
+    padding-right: 4%;
+    background-color: #4F4887;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+  
+  .log a{
+    font-size: 1em;
+    color: white;
+    padding: 5px;
+    margin-right: 3%;
+    text-decoration: none;
+    }
+
+  .log .welcome{
+    font-size: 1em;
+    color: white;
+    padding: 5px;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  .navegacion{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+  .navegacion img{
+    width: 110px;
+    height: 110px;
+    margin-top: 2%;
+    margin-left: 20px;
+    }
+  
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    }
+  
+  nav a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #4F4887;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    transition: 0.3s;
+    border-radius: 10px;
+    }
+  
+  nav a:hover{
+    color: white;
+    background-color: #00ebb8;
+    border-color: #00ebb8;
+  }
+  
+  nav a:focus{
+    color:white;
+    background-color: #00ebb8;
+    border-color: #00ebb8;
+    border-radius: 4px;
+  }
+  
+  .busqueda{
+    width: 25vw;
+  }
+  
+  .busqueda button{
+    background-color: #6e689e;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #6e689e;
+    transition: 0.3s;
+  }
+  
+  .busqueda button:hover{
+    background-color: #00ebb8;
+    border-color: #00ebb8;
+  }
+  
+  
+   footer{
+    background-color: #4F4887;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+
+
+    box-shadow: 0px -2px 3px #000000;
+    -webkit-box-shadow: 0px -2px 3px #000000;
+    -moz-box-shadow: 0px -2px 3px #000000;
+    -ms-box-shadow: 0px -2px 3px #000000;
+    }
+
+      
+    footer h2{
+    font-size: 1em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    }
+  
+    footer div a img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+  
