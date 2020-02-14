@@ -30,6 +30,7 @@
                 <input type="hidden" name="product_id" value="{{$producto->id}}">
                 <button class="boton"  type="sumbit">Agregar al carrito</button>
             </form>
+            @if(Auth::user()!=null)
             @if(Auth::user()->type=="admin")
             <form action="/editarProducto" method="GET">
             <button class="boton" type="submit">Editar producto</button>
@@ -40,6 +41,7 @@
             <input type="hidden" name="name" value="{{$producto->name}}">
             <button class="boton" type="submit">Eliminar producto</button>
             </form>
+            @endif
             @endif
         </div>
 
