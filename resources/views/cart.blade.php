@@ -17,10 +17,8 @@
             <div class="box">
                 <?php $contador = 0;?>
                 @forelse($carritoActual->products as $producto)
-                <div class="producto">
-                    <h3>{{$producto->name}}</h3>
-                    <p>${{$producto->price}}</p>
-                </div>
+                        <h3>{{$producto->name}}</h3>
+                        <p>${{$producto->price}}</p>
                     <form class="form" action="/eliminarDelCarrito" method="POST">
                     {{csrf_field()}}
                     <input type="hidden" name="product_id" value="{{$producto->id}}">
@@ -40,17 +38,16 @@
                     </div>
                 @endforelse
 
+                @if($contador != 0)
                 <style>
                     .box{
-                        height:35vh;
+                        height:auto;
                     }
                 </style>
-
-                @if($contador != 0)
-                <h3>Total= {{$total}}</h3>
-                <form action="/comprar">
-                    <button class="boton important" type="submit">COMPRAR</button>
-                </form>
+                    <h3>Total= {{$total}}</h3>
+                    <form action="/comprar">
+                        <button class="boton important" type="submit">COMPRAR</button>
+                    </form>
                 @endif
             </div>
 

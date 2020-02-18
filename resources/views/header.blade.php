@@ -11,8 +11,8 @@
         <div class="log">
 
             @if(Auth::user()==null)
-            <a href="login">Log in</a>  
-            <a href="register">Sign in</a>
+            <a href="login">Inciar Sesión</a>  
+            <a href="register">Registrarse</a>
             @else
             <p class="welcome">Bienvenido {{Auth::user()->name}}</p>
             @endif

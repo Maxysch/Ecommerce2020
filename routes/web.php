@@ -37,13 +37,13 @@ Route::get('/cuenta/{id}', 'UserController@show');
 
 Route::get('/agregarProducto',function(){
     return view('addProduct');
-})->middleware('Admin');
+})->middleware('LoggedIn')->middleware('Admin');
 
 Route::post('/agregarProducto','ProductController@store');
 
 Route::post('/eliminarProducto','ProductController@destroy');
 
-Route::get('/editarProducto/{name}','ProductController@edit')->middleware('Admin');
+Route::get('/editarProducto/{name}','ProductController@edit')->middleware('LoggedIn')->middleware('Admin');
 
 Route::post('/editarProducto/{name}','ProductController@update');
 

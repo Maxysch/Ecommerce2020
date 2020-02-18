@@ -32,7 +32,7 @@
             </form>
             @if(Auth::user()!=null)
             @if(Auth::user()->type=="admin")
-            <form action="/editarProducto" method="GET">
+            <form action="/editarProducto/{{$producto->name}}" method="GET">
             <button class="boton" type="submit">Editar producto</button>
             </form>
             <form action="/eliminarProducto" method="POST">

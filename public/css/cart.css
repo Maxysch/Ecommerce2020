@@ -41,7 +41,23 @@
     flex-direction: column;
     align-items: center;
     margin-bottom:10px;
+    height: 35vh;
     }
+
+    .producto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+    }
+
 
     .boton{
     width: 100%;
