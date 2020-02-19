@@ -10,10 +10,10 @@
     <footer>
         <h2>Copyright © 2019 Moodis S.R.L.</h2>
         <div>
-            <a href="#"><img src="/storage/twitter.png" alt="twit"></a>
-            <a href="#"><img src="/storage/facebook.png" alt="face"></a>
-            <a href="#"><img src="/storage/whatsap.png" alt="whats"></a>
-            <a href="#"><img src="/storage/insta.png" alt="inst"></a>
+            <a href="#"><img src="/twitter.png" alt="twit"></a>
+            <a href="#"><img src="/facebook.png" alt="face"></a>
+            <a href="#"><img src="/whatsap.png" alt="whats"></a>
+            <a href="#"><img src="/insta.png" alt="inst"></a>
         </div>
     </footer>
 </body>

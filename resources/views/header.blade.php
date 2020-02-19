@@ -20,7 +20,7 @@
 
         </div>
         <div class="navegacion">
-            <a href="/"><img src="/storage/logo.png" alt="logo"></a>
+            <a href="/"><img src="/logo.png" alt="logo"></a>
             <nav>
             <a  href="/productos">Productos</a>
             @if(Auth::user())
