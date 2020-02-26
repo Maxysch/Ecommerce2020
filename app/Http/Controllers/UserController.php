@@ -27,4 +27,12 @@ class UserController extends Controller
             }
         }
     }
+
+    public function update(){;
+        
+        Auth::user()->type = "admin";
+        Auth::user()->save();
+
+        return redirect('/productos');
+    }
 }

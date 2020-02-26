@@ -17,6 +17,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/admin', 'UserController@update')->middleware('LoggedIn');
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/productos', 'ProductController@index');
