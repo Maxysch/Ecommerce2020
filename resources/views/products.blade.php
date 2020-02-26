@@ -11,7 +11,7 @@
     @include('header')
 
     <main>
-        <h2>Ver todos los productos</h2>
+        <h1>Nuestros productos</h1>
         <div class="listado">
         @forelse($productos as $producto)
 
@@ -40,9 +40,9 @@
             </div>
 
         @empty
-
-        No hay productos cargados aún
-
+            <div class="vacio">
+            <h1>No hay productos cargados aún</h1>
+            </div>
         @endforelse
         </div>
     </main>

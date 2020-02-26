@@ -67,3 +67,7 @@ main {
     color: #288ffd;
     text-align: center;
   }
+
+  .help-block{
+    color: red;
+  }

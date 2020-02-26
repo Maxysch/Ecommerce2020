@@ -16,15 +16,40 @@
                 <label for="name">Nombre:</label>
                 <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required autofocus>
 
+                @if ($errors->has('name'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('name') }}</strong>
+                                    </span>
+                @endif
+
                 <label for="surname">Apellido:</label>
                 <input id="surname" type="text" class="form-control" name="surname" value="{{ old('surnname') }}" required autofocus>
 
 
+                @if ($errors->has('surname'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('surname') }}</strong>
+                                    </span>
+                @endif
+
                 <label for="email">E-Mail:</label>
                 <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
 
+                @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                @endif
+
+
                 <label for="password">Contraseña:</label>
                 <input id="password" type="password" class="form-control" name="password" required>
+
+                @if ($errors->has('password'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                @endif
 
                 <label for="password-confirm">Confrimar contraseña:</label>
                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>

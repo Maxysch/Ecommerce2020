@@ -1,4 +1,4 @@
-main h2 {
+main h1 {
     text-align: center;
     text-decoration: underline;
 }
@@ -82,4 +82,25 @@ form button:focus{
     background-color: #00ebb8;
     border-color: #00ebb8;
     border-radius: 4px;
+}
+
+.vacio{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 40vw;
+    height: 47vh;
+    background-color:#ebebeb;
+    opacity: .95;
+    padding: 0 18px;
+    box-shadow: 0px 0px 3px #848484;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vacio h1{
+    text-decoration: none;
+
 }
