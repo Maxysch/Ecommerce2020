@@ -23,7 +23,7 @@
                 @endif
 
                 <label for="surname">Apellido:</label>
-                <input id="surname" type="text" class="form-control" name="surname" value="{{ old('surnname') }}" required autofocus>
+                <input id="surname" type="text" class="form-control" name="surname" value="{{ old('surname') }}" required>
 
 
                 @if ($errors->has('surname'))
