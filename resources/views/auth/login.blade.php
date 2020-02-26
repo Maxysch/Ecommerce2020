@@ -16,8 +16,22 @@
                 {{ csrf_field() }}
                 <label for="email">Email:</label>
                 <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required autofocus>
+                
+                @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                @endif
+                
                 <label for="password">Contraseña:</label>
                 <input id="password" type="password" class="form-control" name="password" required>
+
+                @if ($errors->has('password'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                @endif
+                
                 <div class="rmbr">
                 <p>Recuerdame</p><input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}>
                 </div>

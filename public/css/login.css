@@ -76,4 +76,7 @@ main {
     align-items: center;
   }
 
+  .help-block{
+    color: red;
+  }
 
